@@ -2,18 +2,6 @@ SHOW DATABASES;
 USE Chinook;
 SHOW TABLES;
 
-SELECT * FROM album;
-SELECT * FROM artist;
-SELECT * FROM customer;
-SELECT * FROM employee;
-SELECT * FROM genre;
-SELECT * FROM invoice;
-SELECT * FROM invoiceline;
-SELECT * FROM mediatype;
-SELECT * FROM playlist;
-SELECT * FROM playlisttrack;
-SELECT * FROM track;
-
 -- Total Revenue
 SELECT * FROM invoice;
 SELECT SUM(Total) AS TotalRevenue FROM invoice;
