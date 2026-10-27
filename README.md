@@ -8,7 +8,11 @@ The dataset used for this project is the Chinook Database, which models a digita
 Source: https://github.com/lerocha/chinook-database
 
 ## 3. Database Schema
-
+1. Click on source link and open Data Sources folder.
+2. Download Chinook_MySql.sql file from the folder.
+3. Open the file on MySQL Workbench and run the file
+4. Open the database 'Chinook' created.
+   
 ## 4. Business Questions
 1. What is the total sales revenue?
 2. What are the yearly and monthly sales trends?
@@ -27,8 +31,29 @@ Source: https://github.com/lerocha/chinook-database
 15. Which products have high quantity sales but relatively low revenue?
 
 ## 5. SQL Concepts Used
+● JOIN - CROSS JOIN, JOIN
+● GROUP BY
+● ORDER BY
+● HAVING
+● CASE
+● Subqueries
+● Common Table Expressions (CTEs) - WITH clause
+● Window functions - SUM(), COUNT()
+● Ranking - ROW_NUMBER(), RANK(), OVER(ORDER BY ), DENSE_RANK()
+● Date functions - DATE_FORMAT()
 
-## 6. SQL Queries
-## 7. Key Findings
-## 8. Business Recommendations
-## 9. Conclusion
+## 6. Key Findings
+1. The USA, Canada, and France account for the largest share of revenue, representing over 40% of total international sales.
+2. Spending per customer shows moderate variance.
+3. Rock is the highest selling genre, followed by Latin and Metal.
+4. Monthly revenue has some variance with the highest revenue being during the month of January, 2022.
+5. Artists who have the largest number of tracks are Iron Maiden, U2 and Led Zeppelin
+6. Revenue generated per sales support employee is evenly distributed across team members, reflecting balanced account distribution.
+
+## 7. Business Recommendations
+● Prioritize marketing campaigns and catalog expansion around high-revenue genres like Rock and Metal, while pairing niche or slower-selling genres with popular tracks in discounted bundle promotions to boost overall volume.
+● Expand targeted ad campaigns in core markets like North America, while streamlining checkout experiences and introducing localized payment methods to capture market share in high-potential European regions.
+● Launch an automated loyalty program tailored for high-value customers to drive repeat purchases, improve long-term retention, and maximize lifetime value (LTV).
+
+## 8. Conclusion
+This SQL case study highlights key operational drivers within the digital music store ecosystem. By leveraging analytical queries, multi-table joins, and CTEs, actionable paths were identified to optimize music catalog acquisition and increase customer lifetime value.
